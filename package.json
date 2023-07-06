@@ -1,0 +1,20 @@
+{
+  "name": "dinosaur_show",
+  "version": "1.0.0",
+  "description": "A Dinosaur Show",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules src/index.mjs ",
+    "dev": "nodemon index.js"
+  },
+  "author": "Dhanush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
